@@ -1,0 +1,50 @@
+body{/*fondo de pagina*/
+    background-color: rgba(203, 45, 45, 0.848);
+}
+h1 {/*alineacion y color de texto*/
+    text-align: center;
+    color: rgb(134, 202, 25);
+    font-family:initial;
+    font-size: 50px;
+    
+}
+h2 {
+    text-align: center;
+    color: rgb(36, 18, 150);
+    font-size: 30px;
+    font-family:  sans-serif;
+}
+h3{
+    text-align: center;
+    color: rgb(226, 217, 43);
+    font-size: 30px;
+}
+
+
+    table {/*centrado de tabla automatico para movimiento*/
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+    }
+    tr,th{/*bordes de tabla y extencion de padin*/
+        border:2px solid blue;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-right: 30px;        
+    }
+    th {/*Fondo de tabla*/
+background-color: yellowgreen;
+    }
+.direccion{/*centrado de direccion y tamaño*/
+    text-align:center;
+    height:auto;
+    font-size: 20px;
+        
+}
+.mapa{/*centrado de mapa y tamaño*/
+    padding-left:350px;
+    width: 30%;
+    height:auto;
+    padding-bottom:60px;
+}
